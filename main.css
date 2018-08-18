@@ -1,0 +1,98 @@
+body {
+    background: url("wall.PNG") repeat 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height:100%;
+    margin: 0;
+}
+
+.home-container{
+    height: 30%;
+    padding: 20% 0 20% 0;
+}
+
+.home-row-padding{
+    padding: 0 30% 0 30%;
+}
+
+input{
+    width: 100%;
+    height: 54px !important;
+}
+
+.no-padding{
+    padding: 0 4px 0 4px !important;
+}
+
+
+
+header {
+    padding: 20px 20px;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.mainPage {
+    background-size: cover;
+    color: black;
+    text-shadow: 0.25px 0.25px 0.25px black;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #d3d3d3;
+    width: 75%;
+    height: 35rem;
+    margin: 0 auto;
+}
+.flex-container > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+
+.flex-container-centered{
+    justify-content: center;
+    align-items: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-size: 20px;
+    padding: 20px 0;
+    position: fixed;
+    left: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
